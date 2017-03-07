@@ -6803,7 +6803,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background: image-url('parallax1.jpg');
+  background-image: url("parallax1.jpg");
 }
 section.module.parallax-2 {
   background-image: url("parallax2.jpg");
