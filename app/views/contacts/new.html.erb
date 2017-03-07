@@ -1,0 +1,77 @@
+<!-- Page Content -->
+    <div class="container">
+        <!-- /.row -->
+    <br>
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+
+
+<h1>Contáctenos</h1>
+                <h4>Comuníquese con Madersec para conocer más sobre los productos y servicios que ofrecemos</h4>
+  <%= simple_form_for @contact, :html => {:class => 'control-group form-group' } do |f| %>
+                 <div class="control-group form-group">
+                     <div class="controls">
+                      <%= f.input :name, label: 'Nombre:', :required => true, input_html: { class: 'form-control' } %>
+                     </div>
+                 </div>
+                 <div class="control-group form-group">
+                     <div class="controls">
+                    <%= f.input :number, label: 'Número:', input_html: { class: 'form-control' } , :required => true %>
+                     </div>
+                 </div>
+                 <div class="control-group form-group">
+                     <div class="controls">
+                     <%= f.input :email, label: 'Email:', input_html: { class: 'form-control' } , :required => true %>
+                     </div>
+                 </div>
+                 <div class="control-group form-group">
+                     <div class="controls">
+                    <%= f.input :message, label: 'Mensaje:', input_html: { class: 'form-control' } , :as => :text, :required => true %>
+                     </div>
+                 </div>
+    <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Enviar Mensaje', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+
+
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Detalles del Contacto</h3>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">Telf:</abbr>: (+593)993183634 , (+593)997949725</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">Email:</abbr>: <a href="mailto:name@example.com">msosa@madersec.ec</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">Horario:</abbr>: Lunes - Viernes: 9:00 am a 5:00 pm</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-md-8">
+                
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+    </div>
+    <!-- /.container -->
