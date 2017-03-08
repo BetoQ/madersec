@@ -6802,21 +6802,17 @@ section.module.parallax h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
-
-//= depend_on_asset "parallax1.jpg"
-
 section.module.parallax-1 {
-  background-image: url('<%= asset_path("parallax1.jpg") %> ');
+  background-image: url("parallax1");
 }
 section.module.parallax-2 {
-  background-image: url("parallax2.jpg");
+  background-image: url("parallax2");
 }
 section.module.parallax-3 {
-  background-image: url("parallax3.jpg");
+  background-image: url("parallax3");
 }
 section.module.parallax-4 {
-  background-image: url("parallax4.jpg");
+  background-image: url("parallax4");
 }
 
 
