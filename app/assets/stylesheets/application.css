@@ -16,15 +16,3 @@
 /*
  *= require font-awesome
  */
-
- .hello-container {
-  height: 300px;
-  position: relative;
-  margin: 0 auto;
-   color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 300px;
-  font-weight: 700;
-  text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
