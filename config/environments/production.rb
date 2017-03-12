@@ -94,7 +94,7 @@ config.action_mailer.smtp_settings = {
   domain:               ENV['GMAIL_DOMAIN'],
   user_name:            ENV['GMAIL_USERNAME'],
   password:             ENV['GMAIL_PASSWORD'],
-  authentication:       'login',
+  authentication:       'plain',
   enable_starttls_auto: true  }
 
 config.action_mailer.default_url_options = { :host => "agile-savannah-21017.herokuapp.com" }
