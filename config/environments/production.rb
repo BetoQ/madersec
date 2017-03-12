@@ -97,7 +97,7 @@ config.action_mailer.smtp_settings = {
   authentication:       'login',
   enable_starttls_auto: true  }
 
-config.action_mailer.default_url_options = { :host => 'agile-savannah-21017.herokuapp.com' }
+config.action_mailer.default_url_options = { :host => "agile-savannah-21017.herokuapp.com" }
 
 
 
