@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
   def homepage
       set_meta_tags title: 'Homepage', 
-                    site: 'Madersec',
+                    site: 'Madersec - Venta de madera seca',
                     description: 'Empresa dedicada a la comercialización de madera seca en cámara. Utilizamos madera proveniente de bosques de la costa y el oriente ecuatoriano.',
                     keywords: %w[madera seca tablones vigas seike quito ecuador],
                     og:{
